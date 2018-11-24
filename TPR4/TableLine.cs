@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
 namespace TPR4
 {
@@ -13,7 +14,7 @@ namespace TPR4
         public double V_min => (double) Bs.Min / Number;
         public double V_max => (double) As.Max / Number;
 
-        public double v_avg => (V_max + V_min) / 2;
+        public double V_avg => (V_max + V_min) / 2;
         public int I => Bs.Index;
         public int J => As.Index;
 
@@ -26,7 +27,7 @@ namespace TPR4
 
         public override string ToString()
         {
-            return $"{Number}, {I}, {Bs}{J}, {As}{V_min.ToString(NumberFormatInfo.InvariantInfo)}, {v_avg.ToString(NumberFormatInfo.InvariantInfo)}, {V_max.ToString(NumberFormatInfo.InvariantInfo)}";
+            return $"{Number}, {I+1}, {Bs}{J+1}, {As}{V_min.Format()}, {V_avg.Format()}, {V_max.Format()}";
         }
     }
 }

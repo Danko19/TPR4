@@ -61,10 +61,7 @@ namespace TPR4
 
         public override string ToString()
         {
-            var sb = new StringBuilder();
-            foreach (var number in data)
-                sb.Append($"{number}, ");
-            return sb.ToString();
+            return data.ToLine();
         }
     }
 }
