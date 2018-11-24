@@ -1,0 +1,7 @@
+C:\Users\wally\source\repos\TPR4\TPR4\bin\Debug\TPR4.exe.config
+C:\Users\wally\source\repos\TPR4\TPR4\bin\Debug\TPR4.exe
+C:\Users\wally\source\repos\TPR4\TPR4\bin\Debug\TPR4.pdb
+C:\Users\wally\source\repos\TPR4\TPR4\obj\Debug\TPR4.csprojAssemblyReference.cache
+C:\Users\wally\source\repos\TPR4\TPR4\obj\Debug\TPR4.csproj.CoreCompileInputs.cache
+C:\Users\wally\source\repos\TPR4\TPR4\obj\Debug\TPR4.exe
+C:\Users\wally\source\repos\TPR4\TPR4\obj\Debug\TPR4.pdb
